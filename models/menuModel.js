@@ -1,9 +1,8 @@
-const { string } = require('joi')
 const mongoose = require('mongoose')
 
 const MenuSchema = new mongoose.Schema({
     name: {
-        type: string,
+        type: String,
         required: true
     },
     category: {
